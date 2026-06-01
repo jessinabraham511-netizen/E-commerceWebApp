@@ -1,0 +1,304 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(https://www.tripelle.com/wp-content/uploads/2019/02/Incredicoaster-1024x681.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    background-position: center;
+    
+}
+
+.header-container {
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(232, 219, 232);
+    text-align: center;
+    margin-bottom: 350px;
+    margin-top: 150px;
+}
+body,html{
+    overflow-x: hidden;
+    
+}
+
+.header-container h1 {
+    font-size: 7vmin;
+    text-align: center;
+}
+
+.line {
+    width: 150px;
+    height: 1px;
+    background: whitesmoke;
+    border: radius 4px;
+    
+    margin: 10px auto;
+}
+
+.btn {
+    text-decoration: none;
+    background: rgb(80, 39, 96);
+    color: whitesmoke;
+    border-radius: 5px;
+    border: 1px solid rgb(79, 28, 91);
+    transition: 1s ease-in-out;
+    
+}
+.btn:hover{
+    box-shadow: 0px 4px 8px rgb(82, 42, 91);
+}
+
+a {
+    text-decoration: none;
+    color: whitesmoke;
+} 
+
+.list {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    transition: 1s ease-in-out;
+
+
+}
+.list:hover{
+    text-decoration:underline ;
+    
+}
+
+.nav-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px;
+    color: whitesmoke;
+}
+
+.list li {
+    margin: 0 30px;
+}
+.menu-btn{
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    width: 40px;
+    display: none;   
+}
+.title{
+    text-align: center;
+    color: rgb(93, 66, 120);
+}
+.line1{
+    background: rgb(86, 57, 113);
+    width: 150px;
+    height: 2px;
+    margin: auto ;
+}
+section{
+    background: whitesmoke;
+}
+.row{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    
+}
+.col{
+    width: 80%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    border: 0px solid rgb(124, 115, 97);
+    border-radius: 10px;
+    box-shadow: slategray;
+    
+}
+.col img{
+    transition: 1s ease-in-out;
+    
+}
+.col img:hover{
+    width: 50%;
+    box-shadow: 0px 4px 8px rgb(91, 88, 88);
+}
+ .col p{
+    color: rgb(126, 104, 147);
+    width: 350px;
+   
+}
+.col-content{
+    width: 60%;
+    color: rgb(92, 63, 120);
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.col-content p{
+    width: 60%;
+    margin-left:120px;
+}
+
+.col-img{
+    width: 60%;
+    display: flex;
+    flex-wrap:wrap;
+    margin-top: 70px;
+    
+}
+.col-img img{
+    width: 300px;
+    margin: 10px;
+    transition: 1s ease-in-out;
+    
+}
+.col-img img:hover{
+    box-shadow: 0px 4px 8px rgba(0,0,0.3) ;
+}
+.sec{
+    background-image: url(https://i.pinimg.com/originals/ca/61/37/ca6137ccdd4966b25bacb5ce657f797f.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    width: 100%;
+    
+
+}
+.Adv{
+    width: 600px;
+    margin: 20px;
+    color:rgb(96, 95, 95);
+}
+.footer{
+    background: rgb(82, 44, 96);
+    height: 200px;
+    
+}
+
+    
+.links{
+    list-style-type: none;
+    
+}
+.row2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 10px;
+    padding: 40px;
+    
+}
+ @media only screen and (max-width:700px) {
+    .menu-btn{
+        display: block;
+    }
+    .nav-bar {
+        padding:0 ;
+    
+    }
+
+    .logo {
+        position: absolute;
+        top: 30px;
+        left: 30px;
+
+    }
+
+    .list {
+        flex-direction: column;
+        width: 100%;
+        height: 100vh;
+        justify-content: center;
+        background: rgb(2, 96, 101);
+        margin-top: -900px;
+        transition: all 0.5s ease;
+        
+    }
+    .mobile-menu{
+        margin-top: 0px;
+        border-bottom-right-radius: 50%;
+        border-bottom-left-radius: 50%;
+    }
+
+    .list li {
+        margin: 30px auto;
+    }
+    .row{
+        flex-direction: column;
+    }
+    .row .col{
+        margin: 20px;
+    }
+    .col img{
+        width: 90%;
+    }
+    .col-content{
+        width: 90%;
+    }
+    .col-content p{
+        margin: 20px;
+    }
+    .col-img{
+        width: 50%;
+        justify-content: center;
+        align-items: center;
+    }
+    .col-img img{
+        width: 90%;
+    }
+    .sec{
+        padding: 60px 20px;
+        height: auto;
+        background-size: cover;
+        background-attachment: scroll;
+        background-position:top center;
+        
+    }
+    .Adv{
+        width:50%;
+        padding: 20px 20px;
+        margin:0px;
+        text-align: left;
+        margin-top: 0px;
+    }
+    .sec .title h1{
+        text-align: left;
+        margin: 0px;
+        padding: 0px;
+    }
+    .sec .line1{
+        margin-left: 70px;
+        margin-right: 20px;
+    }
+    .footer{
+        padding: 10px;
+    }
+    header{
+        width: auto;
+    }
+    .row2{
+        width: auto;
+    }
+    header{
+        background: cover;
+        background-position: top center;
+        background-attachment: scroll;
+        height: auto;
+        padding:60px 20px ;
+        width: 100%;
+    }
+
+
+}
